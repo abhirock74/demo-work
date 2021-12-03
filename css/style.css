@@ -34,7 +34,8 @@ a{
 }
 .side-bar{
     width: 16.3%;
-    height: 115vh;    background-color: rgba(243, 36, 71, 0.774);
+    height: 115vh;    
+    background-color: rgba(243, 36, 71, 0.774);
 }
 .content{
     width: 83.7%;
@@ -478,4 +479,178 @@ td{
     border-radius: 5px;
     text-align: center;
     color: blanchedalmond;
+}
+/* =================responsive========== */
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+    .main-nav{
+        height: 20vw;
+    }
+    .side-bar{
+        display: none;
+    }
+    .three-box{
+        display: block;
+    }
+    .box{
+        width: 90%;
+        height: 51vw;
+       
+    }
+    .two-box{
+        display: block;
+        width: 100%;
+    }
+    .big-box{
+        width: 94%;
+        margin: 0% 3%;
+        height: 155vw;
+    }
+    .all-color{
+        width: 100%;
+        margin-top: 0%;
+        height: 50vw;
+        margin-left: 15px;
+    }
+    .color-detail{
+        width: 60vw;
+        margin-left: 30px;
+    }
+    .blue-colour {
+        margin-left: 10px;
+        padding: 3px;
+    }
+    .green-colour{
+        margin-left: 10px;
+        padding: 3px;
+    }
+    .pink-colour{
+        margin-left: 10px;
+        padding: 3px;
+    }
+    .d-pink-colour{
+        margin-left: 10px;
+        padding: 3px;
+    }
+    .side-icon{
+        margin-left: 6%;
+    }
+    .calendar{
+        width: 94%;
+        margin: 5% 2%;
+        border: 1px solid rgba(243, 36, 71, 0.774);
+
+    }
+    .logo{
+        padding: 0% 0 0 15%;
+        margin-top: 25px;
+    }
+    .cont1{
+        margin-top: 65vw;
+    }
+    .mob-left{
+        margin-left: -1vw !important;
+    }
+    .mob-left2{
+        margin-left: 25vw !important;
+    }
+    .mob-left3{
+        margin-left: 51vw !important;
+    }
+    .cont2{
+        margin-left: 0vw !important;
+        margin-top: 125vw;
+    }
+    .content{
+        width: 100%;
+    }
+    .calender{
+        margin-left: 110px !important;
+        margin-top: 13px !important;
+        position: absolute;
+        width: 5vw;
+    }
+    .container{
+        top: 34%;
+    }
+    .cir1{
+        margin: 0%;
+    }
+    .cir2{
+        margin-left: 27vw !important;
+    }
+    .cir3{
+        margin-left: 53vw !important;
+    }
+    .footer{
+        width: 100%;
+        height: 10vw;
+    }
+    /* ====================================Second page===================================== */
+    .content-head{
+        margin: 5px 0px 1px 60px;
+    }
+    .filter{
+        margin-left: 0%;
+    }
+    .result{
+        width: 90%;
+        height: 160vw;
+        margin: 0% 5%;
+    }
+    .head-text{
+        font-size: 10px;
+    }
+    .head-result{
+        height: 20vw !important;
+    }
+    .result-line-space{
+        height: 10vw;
+    }
+    .saearc-btn1{
+        width: 15vw;
+        height: 6vw;
+    }
+    .saearc-btn2{
+        width: 15vw;
+        height: 6vw;
+    }
+    .saearc-btn3{
+        width: 15vw;
+        height: 6vw;
+    }
+    .travels{
+        width: 22vw;
+    }
+    
+/* =============================third page ================================ */
+.top-input{
+    height: 7vw;
+}
+.base-button{
+    padding: 2.2vw;
+}
+.travel-details{
+    height: 10vw;
+}
+.save-btn{
+    padding: 2vw;
+    width: 30vw;
+}
+#details{
+    margin: 0% 0 0 1%;
+}
+.travel-form{
+    margin: 2% 0 0 1%;
+}
+
+
 }
