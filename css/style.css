@@ -13,21 +13,22 @@ a{
 }
 .logo{
     color: white;
-    padding: 35px 50px;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 50px;
 }
 .side-icon{
-    height: 2vw;
-    margin-left: 71%;
+    height: 1vw;
+    display: inline;
     padding: 18px;
+    margin-left: 70vw;
 }
 .round-icon{
     padding: 15px;
     background-color: rgb(255, 183, 195);
     border-radius: 50%;
     margin-left: 10px;
-    color:  rgb(228, 65, 92));
+    color:  rgb(228, 65, 92);
 }
 #main-container{
     display: flex;
@@ -148,7 +149,8 @@ a{
 }
 .active{
     background-color: rgb(243, 36, 70);
-    height: 5vh;
+    height: 4vh;
+    width: 3vw;
     padding-top: 5px;
     border-radius: 5px;
     color: white;
@@ -481,7 +483,7 @@ td{
     color: blanchedalmond;
 }
 nav{
-    display: none;
+    display:none;
 }
 /* =================responsive========== */
 
@@ -496,6 +498,16 @@ nav{
 @media (max-width:700px){
     .main-nav{
         height: 20vw;
+    }
+    nav{
+        display:inline-block;
+        width: 25vw;
+    }
+    .logo{
+        display: inline;
+        float: left;
+        margin-left: -55px;
+        padding: 0%;
     }
     .side-bar{
         display: none;
@@ -544,7 +556,9 @@ nav{
         padding: 3px;
     }
     .side-icon{
-        margin-left: 6%;
+        margin-left: 0%;
+        padding: 10px;
+       
     }
     .calendar{
         width: 94%;
@@ -555,7 +569,6 @@ nav{
     .logo{
         padding: 0% 0 0 15%;
         margin-top: 25px;
-        /* margin-left: -100vw; */
     }
     .cont1{
         margin-top: 63vw;
@@ -598,7 +611,6 @@ nav{
         width: 100%;
         height: 10vw;
     }
-    /* ====================================Second page===================================== */
     .content-head{
         margin: 5px 0px 1px 60px;
     }
@@ -635,9 +647,10 @@ nav{
         width: 22vw;
     }
     
-/* =============================third page ================================ */
 .top-input{
-    height: 7vw;
+    height: 10vw;
+    width: 355%;
+    margin-top: 12px;
 }
 .base-button{
     padding: 2.2vw;
@@ -656,7 +669,8 @@ nav{
     margin: 2% 0 0 1%;
 }
 .round-icon{
-    display: none;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 
@@ -677,16 +691,16 @@ nav{
     background-color: rgb(228, 65, 92);
     color: white;
     z-index: 1;
-    width: 100%;
-    left: -100%;
+    width: 400%;
+    left: -400%;
     position: relative;
-    transition: .8s;
-    top: 0%;
+    transition: .3s;
+    top: 3%;
     height: 50vh;
 }
 th{
     height: 10vw;
-    border-bottom: 1px solid rgba(128, 113, 113, 0.555);
+    border-top: 1px solid rgb(252, 0, 105);
 }
 :checked~table{
     left: 0%;
@@ -698,6 +712,23 @@ a{
 }
 .list-side{
     padding-left: 10px;
+}
+.active{
+    width: 9vw;
+}
+td{
+    display: block;
+}
+.input-item{
+    width: 89vw;
+    margin-top: 5px;
+    margin-left: 2vw;
+}
+.from{
+    display: none;
+}
+.base-button{
+    margin: 5% 0% 40px 10px;
 }
 
 }
