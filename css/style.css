@@ -672,7 +672,7 @@ nav{
     float: left;
     margin-left: 4vw;
 }
-table{
+.tabl{
     border: 1px solid rgba(243, 36, 71, 0.774);
     background-color: rgba(243, 36, 71, 0.774);
     color: white;
