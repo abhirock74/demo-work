@@ -558,7 +558,7 @@ nav{
         /* margin-left: -100vw; */
     }
     .cont1{
-        margin-top: 65vw;
+        margin-top: 63vw;
     }
     .mob-left{
         margin-left: -1vw !important;
@@ -681,7 +681,7 @@ nav{
     left: -100%;
     position: relative;
     transition: .8s;
-    top: 10px;
+    top: 0%;
     height: 50vh;
 }
 th{
