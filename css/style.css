@@ -751,7 +751,34 @@ td{
     padding: 2.5vw 2vw;
     margin: 1vw 0%;
 }
-
+.coll-1{
+    width: 4%;
+}
+.coll-2{
+    width: 10%;
+}
+.coll-3{
+    width: 20%;
+}
+.coll-4{
+    width: 8%;
+}
+.coll-5{
+    width: 15%;
+}
+.coll-6{
+    width: 10%;
+}
+.coll-7{
+    width: 13%;
+}
+.coll-8{
+    width: 20%;
+}
+.call-9{
+    width: 10%;
+    display: block;
+}
 }
 
 
