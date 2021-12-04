@@ -23,6 +23,9 @@ a{
     padding: 18px;
     margin-left: 70vw;
 }
+.value{
+    margin-left: 95px;
+}
 .round-icon{
     padding: 15px;
     background-color: rgb(255, 183, 195);
@@ -778,6 +781,12 @@ td{
 .call-9{
     width: 10%;
     display: block;
+}
+.value{
+    margin-left: 70px;
+}
+.box-foot{
+    margin-top: 115px;
 }
 }
 
