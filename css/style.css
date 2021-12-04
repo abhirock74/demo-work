@@ -612,18 +612,22 @@ nav{
         height: 10vw;
     }
     .content-head{
-        margin: 5px 0px 1px 60px;
+        margin: 5px 16px 5px 70px;
+        display: block;
+        font-size: 40px;
     }
-    .filter{
-        margin-left: 0%;
-    }
+    
     .result{
-        width: 90%;
-        height: 160vw;
-        margin: 0% 5%;
+        width: 98%;
+        height: 100vw;
+        margin: 0% 4px;
+
+    }
+    .coll-9{
+        display: none;
     }
     .head-text{
-        font-size: 10px;
+        font-size: 5px;
     }
     .head-result{
         height: 20vw !important;
@@ -644,7 +648,12 @@ nav{
         height: 6vw;
     }
     .travels{
-        width: 22vw;
+        width: 37vw;
+        margin-top: 2vw;
+        padding: 10px;
+    }
+    .travel2{
+        width: 26vw;
     }
     
 .top-input{
@@ -729,6 +738,18 @@ td{
 }
 .base-button{
     margin: 5% 0% 40px 10px;
+}
+.add-claim{
+    margin-left: 22vw;
+    padding: 10px;
+}
+.slects{
+    padding: 2.5vw 2vw;
+}
+.filter{
+    margin-left: 0% !important;
+    padding: 2.5vw 2vw;
+    margin: 1vw 0%;
 }
 
 }
