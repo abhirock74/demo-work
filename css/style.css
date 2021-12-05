@@ -24,7 +24,7 @@ a{
     margin-left: 70vw;
 }
 .value{
-    margin-left: 95px;
+    margin-left: 5rem;
 }
 .round-icon{
     padding: 15px;
@@ -777,7 +777,7 @@ td{
     display: block;
 }
 .value{
-    margin-left: 70px;
+    margin-left: 4rem;
 }
 .box-foot{
     margin-top: 115px;
@@ -803,7 +803,7 @@ td{
 
 @media (width:320px){
     .value{
-        margin-left: 30px;
+        margin-left: 3rem;
     }
     .box{
         height: 56vw;
