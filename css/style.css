@@ -104,7 +104,7 @@ a{
 }
 .calendar{
     width: 40%;
-    height: 60vh;
+    height: 62vh;
     margin: 10px 5px 20px 20px;
     border-radius: 25px;
     box-shadow: 5px 3px 4px 2px rgba(192, 192, 192, 0.281), 5px 3px 4px 4px rgba(192, 192, 192, 0.171) ;
@@ -267,6 +267,7 @@ a{
     margin-left: 45px;
     width: 20vw;
     font-weight: lighter;
+    
 }
 .blue{
     background-color: rgb(22, 176, 223);
@@ -490,6 +491,11 @@ td{
 nav{
     display:none;
 }
+.calender-text{
+    display: inline;
+    opacity: 0.7;
+    margin-left: 10rem;
+}
 /* =================responsive========== */
 
 
@@ -543,6 +549,7 @@ nav{
     .color-detail{
         width: 70vw;
         margin-left: 30px;
+        margin-top: -1.5vw;
     }
     .blue-colour {
         margin-left: 10px;
@@ -657,7 +664,8 @@ nav{
     
 .top-input{
     height: 10vw;
-    width: 355%;
+    width: 88vw;
+    margin-left: 1.5vw;
     margin-top: 12px;
 }
 .base-button{
