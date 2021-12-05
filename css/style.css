@@ -77,6 +77,8 @@ a{
     font-weight: lighter;
     margin: 15px 50px 0 25px;
     color: rgb(228, 65, 92);
+    display: block;
+    width: 100%;
 }
 .pink-line{
     border: 0.5px solid rgba(226, 138, 153, 0.432);
