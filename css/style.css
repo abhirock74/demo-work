@@ -533,13 +533,13 @@ nav{
         height: 155vw;
     }
     .all-color{
-        width: 100%;
+        width: 90%;
         margin-top: 0%;
         height: 50vw;
         margin-left: 15px;
     }
     .color-detail{
-        width: 60vw;
+        width: 80vw;
         margin-left: 30px;
     }
     .blue-colour {
@@ -592,14 +592,8 @@ nav{
     .content{
         width: 100%;
     }
-    .calender{
-        margin-left: 110px !important;
-        margin-top: 13px !important;
-        position: absolute;
-        width: 5vw;
-    }
     .container{
-        top: 34%;
+        top: 13rem;
     }
     .cir1{
         margin: 0%;
@@ -788,6 +782,11 @@ td{
 .box-foot{
     margin-top: 115px;
 }
+.calender-text{
+    display: inline;
+    opacity: 0.7;
+    margin-left: 4rem;
+}
 }
 
 
@@ -799,3 +798,95 @@ td{
     }
 }
 
+
+
+
+@media (width:320px){
+    .value{
+        margin-left: 30px;
+    }
+    .box{
+        height: 56vw;
+    }
+    .calendar{
+        height: 24rem;
+    }
+    .big-box{
+        height: 170vw;
+    }
+    .cont2{
+        margin-top: 134vw;
+    }
+    .ui-widget-analys{
+        margin: 1rem 1rem;
+    }
+    .calender-text{
+        margin-left: 2rem;
+    }
+    .top-input{
+        width: 285px;
+
+    }
+}
+
+@media (width:600px){
+    body{
+        display: none;
+    }
+}
+@media (width:480px){
+    body{
+        display: none;
+    }
+}
+@media (width:540px){
+    body{
+        display: none;
+    }
+}
+@media (width:414px){
+   .box-foot{
+       margin-top: 140px;
+   }
+   .top-input{
+       height: 11vw;
+       width: 368px;
+   }
+}
+@media (width:375px){
+    .box-foot{
+        margin-top: 122px;
+    }
+}
+
+
+@media (width:411px){
+    .box{
+        height: 45vw;
+    }
+    .cont1{
+        margin-top: 58vw;
+    }
+    .cont2{
+        margin-top: 112vw;
+    }
+    .big-box{
+        height: 140vw;
+    }
+}
+
+
+@media (width:412px){
+    .box{
+        height: 45vw;
+    }
+    .cont1{
+        margin-top: 58vw;
+    }
+    .cont2{
+        margin-top: 112vw;
+    }
+    .big-box{
+        height: 140vw;
+    }
+}
