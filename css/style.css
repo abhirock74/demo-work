@@ -38,7 +38,7 @@ a{
 }
 .side-bar{
     width: 16.3%;
-    height: 115vh;    
+    height: 45rem;    
     background-color: rgb(228, 65, 92);
 }
 .content{
@@ -52,7 +52,7 @@ a{
 }
 .sub-menu{
     width: 100%;
-    height: 7vh;
+    height: 3rem;
     display: flex;
 }
 .list{
@@ -67,7 +67,7 @@ a{
 }
 .box{
     width: 40%;
-    height: 25vh;
+    height: 9.5rem;
     margin: 40px 13px 20px 13px;
     border: 1px solid rgb(228, 65, 92);
     border-radius: 6px;
@@ -97,14 +97,14 @@ a{
 }
 .big-box{
     width: 55%;
-    height: 60vh;
+    height: 23rem;
     margin: 10px 5px 20px 20px;
     border: 1px solid rgb(228, 65, 92);
     border-radius: 25px;
 }
 .calendar{
     width: 40%;
-    height: 62vh;
+    height: 23rem;
     margin: 10px 5px 20px 20px;
     border-radius: 25px;
     box-shadow: 5px 3px 4px 2px rgba(192, 192, 192, 0.281), 5px 3px 4px 4px rgba(192, 192, 192, 0.171) ;
@@ -136,7 +136,7 @@ a{
 }
 .colum{
     width: 100%;
-    height: 7vh;
+    height: 2.8rem;
     display: flex;
 }
 .row{
@@ -154,7 +154,7 @@ a{
 }
 .active{
     background-color: rgb(243, 36, 70);
-    height: 4vh;
+    height: 1.8rem;
     width: 3vw;
     padding-top: 5px;
     border-radius: 5px;
@@ -164,7 +164,7 @@ a{
 
 .container{
     position: absolute;
-    top: 30%;
+    top: 12rem;
     left: 22%;
     text-align: center;
     transform: translate(-50%, -50%);
